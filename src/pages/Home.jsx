@@ -24,9 +24,9 @@ const Home = () => {
       <Header isScrolled={isScrolled} />
       <main className="flex-grow">
         <About />
+        <Education />
         <Projects />
         <Experience />
-        <Education />
         <Skills />
         <Contact />
       </main>

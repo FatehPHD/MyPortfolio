@@ -10,9 +10,9 @@ const Header = ({ isScrolled }) => {
   const { isDark, toggleTheme } = useTheme()
 
   const navItems = [
+    { name: 'Education', href: isHomePage ? '#education' : '/#education' },
     { name: 'Projects', href: isHomePage ? '#projects' : '/#projects' },
     { name: 'Experience', href: isHomePage ? '#experience' : '/#experience' },
-    { name: 'Education', href: isHomePage ? '#education' : '/#education' },
     { name: 'Contact', href: isHomePage ? '#contact' : '/#contact' },
   ]
 
